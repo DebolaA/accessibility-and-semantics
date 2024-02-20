@@ -1,3 +1,8 @@
+body {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
 nav,
 .copy-right {
   margin: 20px auto;
@@ -13,6 +18,10 @@ nav a {
 
 nav:last-of-type {
   width: 300px;
+}
+
+nav:last-of-type a {
+  font-size: 18px;
 }
 
 nav:first-of-type {
