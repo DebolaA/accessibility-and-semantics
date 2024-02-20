@@ -1,0 +1,53 @@
+nav,
+.copy-right {
+  margin: 20px auto;
+  text-align: center;
+}
+
+nav a {
+  padding: 20px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+nav:last-of-type {
+  width: 300px;
+}
+
+nav:first-of-type {
+  width: 650px;
+}
+
+.text-centre {
+  text-align: center;
+}
+
+.container {
+  width: 70%;
+  margin: 20px auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ol {
+  padding: 0 0 0 15px;
+}
+
+.banner img {
+  object-fit: cover;
+  width: 100%;
+  height: 375px;
+}
+
+footer {
+  margin: 40px auto;
+}
+
+@media screen and (max-width: 1049px) {
+  .container {
+    width: 80%;
+  }
+}
